@@ -4,12 +4,19 @@ theme: minima
 
 # Minima theme settings
 minima:
-  skin: classic  # Options: classic, dark, auto, solarized, solarized-dark
+  skin: dark  # Options: classic, dark, auto, solarized, solarized-dark
 
-# Optional: Add your social links (uncomment and edit as needed)
-# author:
-#   name: Your Name
-#   email: your-email@example.com
-# social_links:
-#   - { platform: github, user_url: "https://github.com/your-username" }
-#   - { platform: twitter, user_url: "https://twitter.com/your-username" }
+author:
+  name: Max Albers
+  email: malbers.main@gmail.com
+
+# Social links appear in the footer
+social_links:
+  - { platform: github, user_url: "github.com/malbersmain-netizen" }
+
+# Build settings
+show_excerpts: true
+
+# Header navigation pages
+header_pages:
+  - about.md
