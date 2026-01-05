@@ -1,6 +1,9 @@
-title: My Blog
-description: Welcome to my personal blog
-theme: minima
+title: Max knows nothing.
+description:
+remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-remote-theme
 
 # Minima theme settings
 minima:
@@ -12,7 +15,7 @@ author:
 
 # Social links appear in the footer
 social_links:
-  - { platform: github, user_url: "github.com/malbersmain-netizen" }
+  - { platform: github, user_url: "https://github.com/malbersmain-netizen" }
 
 # Build settings
 show_excerpts: true
